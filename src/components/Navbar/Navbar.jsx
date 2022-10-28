@@ -2,6 +2,7 @@
 import './navbar.css'
 import Buscador from '../Buscador/Buscador';
 import Dropdown from './Dropdown/Dropdown';
+import Carrito from '../Carrito/Carrito';
 
 
 
@@ -33,9 +34,11 @@ const Navbar = () => {
             <a className="nav-link disabled">Disabled</a>
 
           </li> */}
-          <li className="nav-item">
+
+          <Carrito/>
+         {/*  <li className="nav-item">
             <a className="nav-link" href="#"> <button> <img src="./img/Carrito32.png" alt="Carro de compras" /></button> </a>
-          </li>
+          </li> */}
         </ul>
       <Buscador busqueda={"Buscar productos"}/>
       

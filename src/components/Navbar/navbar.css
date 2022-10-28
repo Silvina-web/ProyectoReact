@@ -1,0 +1,14 @@
+.btn-outline-success{
+    background-color: rgba(172, 172, 175, 0.705);
+}
+
+.btn-outline-success:hover {
+    background-color: rgb(243, 11, 11);
+}
+.btn-outline-success:active{
+    color: rgb(255, 38, 0);
+
+}
+.navbar.bg-light{
+    border-color: rgb(231, 10, 176);
+}
