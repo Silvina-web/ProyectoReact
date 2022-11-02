@@ -1,1 +1,6 @@
-/*# sourceMappingURL=home.css.map */
+.container-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3rem;
+}/*# sourceMappingURL=home.css.map */

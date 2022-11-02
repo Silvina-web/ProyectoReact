@@ -1,17 +1,30 @@
 import React from 'react';
 import './app.css'
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 import Contador from './Contador/Contador';
 import Home from './Home/Home';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
+import Producto from './Producto/Producto';
+import Carrito from './Carrito/Carrito';
+import CartWidget from './CartWidget/CartWidget';
+
 
 const App = () => {
   return (
 <>
-<Navbar/>
-<Home/>
+<BrowserRouter>
+    <Navbar/>
+    <Routes>
+       <Route path='/' element={<Home/>}/>
+       <Route path='/producto/:id' element={<Producto/>}/>
+       <Route path='/carrito' element={<Carrito/>}/>
+       </Routes>
+ </BrowserRouter>
 <Contador/>
 <ItemListContainer greeting={" Hola"}/>
+<ItemDetailContainer greeting={"Como estas"}/>
 
    
 </>
@@ -25,23 +38,4 @@ export default App;
 
 
 
-  /*   const producto1 ={ nombre: "Plato", dimensiones: "10x10"}
-      const producto2 ={nombre:"Taza", dimensiones: "12x12"}
-      const producto3 ={nombre:"Pote", dimensiones:"15x15"}
-
-      const productos =[ producto1, producto2,producto3]
-
-
-      const consultarProductos= (Stock)=>{
-        return new Promise((res, rej)=>{
-            if(Stock){
-                res(productos)
-            }
-            rej("Sin stock")
-
-        })
-      }
-      consultarProductos(false)
-      .then(resultado => console.log(resultado))
-      .catch(error => console.log(error))
- */
+ 

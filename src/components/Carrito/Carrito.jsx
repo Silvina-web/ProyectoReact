@@ -1,12 +1,10 @@
+import React from 'react';
 
 const Carrito = () => {
     return (
-        <>
-             <li className="nav-item">
-            <a className="nav-link" href="#"> <button> <img src="./img/Carrito32.png" alt="Carro de compras" /></button> </a>
-          </li>
-           
-        </>
+        <div>
+          < h1>Carrito</h1>
+        </div>
     );
 }
 
