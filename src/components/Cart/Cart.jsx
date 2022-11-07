@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Carrito = () => {
+const Cart = () => {
     return (
         <div>
           < h1>Carrito</h1>
@@ -8,4 +8,4 @@ const Carrito = () => {
     );
 }
 
-export default Carrito;
+export default Cart;

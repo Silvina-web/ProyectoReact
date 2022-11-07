@@ -1,66 +1,31 @@
+/* import React from 'react';
 
-import React from 'react';
-import "./home.css"
-
-const Home = () => {
-  return (
-    <div className="home-img">
-       
-       <img src="../img/LisaCeramica.jpg" alt="" />
-
-    </div>
-  );
+const AllProducts = () => {
+    return (
+        <div>
+             <h1>Mira todo</h1>
+        </div>
+    );
 }
 
-export default Home;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default AllProducts;
+ */
 
 
 
 
 
 /* import {useState, useEffect} from 'react';
-
 import { Link } from 'react-router-dom';
 import {consultarJson} from '../../assets/funciones.js';
-import "./home.css"
+import "./allProducts.css"
 
 
  
 
 
 
-const Home = () => {
+const AllProducts = () => {
 
 
      const [productos, setProductos] = useState([]);
@@ -77,7 +42,7 @@ const Home = () => {
                         <p className="card-text">Medidas : {prod.dimensiones}</p>
                         <p className="card-text">${prod.precio}</p>
                         <p className="card-text">Stock :{prod.stock}</p>
-                        <button className="btn btn-outline-warning"><Link className='nav-link' to={`/producto/${prod.id}`}>Ver</Link></button>
+                        <button className="btn btn-outline-warning"><Link className='nav-link' to={`/product/${prod.id}`}>Ver</Link></button>
                       </div>
                     </div>
               
@@ -100,5 +65,5 @@ const Home = () => {
     );
 } 
 
-export default Home; 
+export default AllProducts; 
  */

@@ -2,14 +2,14 @@ import {Link} from "react-router-dom";
 const CartWidget = () => {
     return (
         <>
-             <li className="nav-item">
-              <Link className="nav-item" to="/carrito">
+             <div className="nav-item">
+              <Link className="nav-item" to="/cart">
 
-              <button><img src="img/Carrito32.png" alt="Carro de compras" /></button>
+              <button><img src="../img/Carrito32.png" alt="Carro de compras" /></button>
               </Link>
               
           
-          </li>
+          </div>
            
         </>
     );

@@ -6,10 +6,10 @@ import Contador from './Contador/Contador';
 import Home from './Home/Home';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
-import Producto from './Producto/Producto';
-import Carrito from './Carrito/Carrito';
+import Cart from './Cart/Cart';
 import CartWidget from './CartWidget/CartWidget';
-
+/* import AllProducts from './AllProducts/AllProducts';
+ */
 
 const App = () => {
   return (
@@ -18,13 +18,18 @@ const App = () => {
     <Navbar/>
     <Routes>
        <Route path='/' element={<Home/>}/>
-       <Route path='/producto/:id' element={<Producto/>}/>
-       <Route path='/carrito' element={<Carrito/>}/>
+       <Route path='/ItemListContainer' element = {<ItemListContainer/>}/>
+      {/*  <Route path='/product/:id' element={<ItemDetailContainer/>}/> */}
+       <Route path='/cart' element={<Cart/>}/>
+       <Route path='/category/:idCategoria' element={<ItemListContainer/>}/>
+       <Route path='/category/:idCategoria' element= {<ItemListContainer/>}/>
        </Routes>
  </BrowserRouter>
+
+
 <Contador/>
-<ItemListContainer greeting={" Hola"}/>
-<ItemDetailContainer greeting={"Como estas"}/>
+{/* <ItemListContainer greeting={" Hola"}/> */}
+
 
    
 </>

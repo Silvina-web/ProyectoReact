@@ -12,6 +12,7 @@ const Dropdown = () => {
               <li><a className="dropdown-item" href="#">COSAS QUE SIRVEN PARA OTRA COSA</a></li>
               <li><hr className="dropdown-divider" /></li>
               <li><a className="dropdown-item" href="#">VER TODO</a></li>
+            {/*   <Link className='nav-link' to=''></Link> */}
             </ul>
           </li>
         

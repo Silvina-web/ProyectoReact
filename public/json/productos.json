@@ -1,6 +1,7 @@
 [
     {
         "id":1,
+        "idCategoria": 1,
         "nombre": "Plato",
         "dimensiones": "10x10",
         "precio": 500,
@@ -9,6 +10,7 @@
     },
     {
         "id":2,
+        "idCategoria": 1,
         "nombre": "Plato",
         "dimensiones": "10x10",
         "precio": 500,
@@ -17,6 +19,7 @@
     },
     {
         "id":3,
+        "idCategoria": 1,
         "nombre": "Plato",
         "dimensiones": "10x10",
         "precio": 500,
@@ -25,7 +28,8 @@
     },
     {
         "id":4,
-        "nombre": "Plato",
+        "idCategoria": 2,
+        "nombre": "Adorno",
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 6, 
@@ -33,7 +37,8 @@
     },
     {
         "id":5,
-        "nombre": "Plato",
+        "idCategoria": 2,
+        "nombre": "Adorno",
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 8, 

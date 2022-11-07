@@ -1,7 +1,8 @@
-export const consultarJson = async ()=>{
-    const promise = await fetch ('./json/productos.json')
+export const consultarJson = async (ruta)=>{
+    const promise = await fetch (ruta)
     const productos = await promise.json ()
-    const CardProductos = productos.map(prod =>
+    return productos
+   /*  const CardProductos = productos.map(prod =>
         <div key={prod.id}>
            <div className="card border-warning mb-3"  style={{maxWidth: '20rem'}} >
            <img src={`./img/${prod.img}`} className ="card-img-top" alt="" />
@@ -17,7 +18,7 @@ export const consultarJson = async ()=>{
   
       
       </div>
-    )
-    return CardProductos
-
+    ) */
+   /*  return CardProductos
+ */
 }
