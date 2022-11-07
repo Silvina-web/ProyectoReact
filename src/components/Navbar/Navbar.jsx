@@ -31,13 +31,13 @@ const Navbar = () => {
               </li> */}
 
   <li className="nav-item">
-                    <Link className='nav-link' to='/ItemListContainer' >
+                    <Link className='nav-link' to='/category/idCategoria/1:' >
                         <button className='btn btn-secondary'>QUIEN SOY</button>
                       {/*   <a className="nav-link active" aria-current="page" href="#">VER TODO</a> */}
                      </Link>
              </li>
               <li className="nav-item">
-                    <Link className='nav-link' to='/category/1' >
+                    <Link className='nav-link' to='/idCategoria/1' >
                         <button className='btn btn-secondary'>COSAS</button>
                       {/*   <a className="nav-link active" aria-current="page" href="#">VER TODO</a> */}
                      </Link>

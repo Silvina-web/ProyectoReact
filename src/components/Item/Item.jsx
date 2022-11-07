@@ -11,7 +11,8 @@ const Item =({prod})=> {
          <p className="card-text">Medidas : {prod.dimensiones}</p>
          <p className="card-text">${prod.precio}</p>
          <p className="card-text">Stock :{prod.stock}</p>
-         <button className="btn btn-outline-warning"><Link className='nav-link' to={`/product/${prod.id}`}>Ver</Link></button>
+         <button className="btn btn-outline-warning">
+                <Link className='nav-link' to={`/product/${prod.id}`}>Ver</Link></button>
        </div>
      </div>
 
