@@ -26,34 +26,31 @@ const Navbar = () => {
                         </Link>
                </li>
 
-             {/*   <li className="nav-item">
-                     <a className="nav-link active" aria-current="page" href="#">QUIEN SOY</a>
-              </li> */}
+           
 
-  <li className="nav-item">
-                    <Link className='nav-link' to='/category/idCategoria/1:' >
-                        <button className='btn btn-secondary'>QUIEN SOY</button>
-                      {/*   <a className="nav-link active" aria-current="page" href="#">VER TODO</a> */}
-                     </Link>
-             </li>
               <li className="nav-item">
-                    <Link className='nav-link' to='/idCategoria/1' >
+                    <Link className='nav-link' to='/category/idCategoria/1:'>
+                        <button className='btn btn-secondary'>QUIEN SOY</button>
+                    
+                     </Link>
+              </li>
+              <li className="nav-item">
+                    <Link className='nav-link' to='/idCategoria/1'>
                         <button className='btn btn-secondary'>COSAS</button>
-                      {/*   <a className="nav-link active" aria-current="page" href="#">VER TODO</a> */}
+                      
                      </Link>
              </li>
              <li className="nav-item">
-                    <Link className='nav-link' to='/category/2' >
-                        <button className='btn btn-secondary'>ADORNOS</button>
-                      {/*   <a className="nav-link active" aria-current="page" href="#">VER TODO</a> */}
-                     </Link>
+                    <Link className='nav-link' to='/idCategoria/2'> Adornos </Link>
+                     
+                    
              </li>
 
 
               <li className="nav-item">
-                    <Link className='nav-link' to='/ItemListContainer' >
+                    <Link className='nav-link' to='/ItemListContainer'>
                         <button className='btn btn-secondary'>VER TODO</button>
-                      {/*   <a className="nav-link active" aria-current="page" href="#">VER TODO</a> */}
+                      
                      </Link>
              </li>
 
