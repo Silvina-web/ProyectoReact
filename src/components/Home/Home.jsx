@@ -6,9 +6,24 @@ const Home = () => {
   return (
     <div className="home-img">
        
+   
+       <div class="card">
+             <div class="card-body">
+             
+                  
        <img src="../img/LisaCeramica.jpg" alt="" />
+       <img src="../img/Home1.png" alt="" />
+       <img src="../img/Home2.png" alt="" />
+       <img src="../img/Home3.png" alt="" />
+
+           </div>
+      </div>
 
     </div>
+
+    
+
+    
   );
 }
 

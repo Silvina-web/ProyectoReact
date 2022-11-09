@@ -2,12 +2,14 @@ import React from 'react';
 import './app.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
-import Contador from './Contador/Contador';
+/* import Contador from './ItemCount/ItemCount'; */
 import Home from './Home/Home';
+import QuienSoy from './QuienSoy/QuienSoy';
+import Contacto from './Contacto/Contacto';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Cart from './Cart/Cart';
-import CartWidget from './CartWidget/CartWidget';
+/* import CartWidget from './CartWidget/CartWidget'; */
 /* import AllProducts from './AllProducts/AllProducts';
  */
 
@@ -18,16 +20,18 @@ const App = () => {
     <Navbar/>
     <Routes>
        <Route path='/' element={<Home/>}/>
+       <Route path='/QuienSoy' element={<QuienSoy/>}/> 
        <Route path='/ItemListContainer' element = {<ItemListContainer/>}/>
        <Route path='/product/:id' element={<ItemDetailContainer/>}/>  
        <Route path='/cart' element={<Cart/>}/>
-       <Route path='/category/:idCategoria' element={<ItemListContainer/>}/>
+       <Route path='/category/:category' element={<ItemListContainer/>}/>
+       <Route path='/Contacto' element={<Contacto/>}/>
       {/*  <Route path='/category/:idCategoria' element= {<ItemListContainer/>}/> */}
        </Routes>
  </BrowserRouter>
 
 
-<Contador/>
+{/* <Contador/> */}
 {/* <ItemListContainer greeting={" Hola"}/> */}
 
 

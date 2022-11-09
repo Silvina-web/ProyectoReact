@@ -6,7 +6,7 @@
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 10, 
-         "img": "Carrito32.png"
+         "img": "Plato1.jpg"
     },
     {
         "id":2,
@@ -15,25 +15,25 @@
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 3, 
-         "img": "Carrito32.png"
+         "img": "Plato2.jpg"
     },
     {
         "id":3,
         "idCategoria": 1,
-        "nombre": "Plato",
+        "nombre": "Pote",
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 5, 
-         "img": "Carrito32.png"
+         "img": "Pote1.jpg"
     },
     {
         "id":4,
         "idCategoria": 2,
-        "nombre": "Adorno",
+        "nombre": "Jirafa",
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 6, 
-         "img": "Carrito32.png"
+         "img": "Jirafa.jpg"
     },
     {
         "id":5,
@@ -41,7 +41,35 @@
         "nombre": "Adorno",
         "dimensiones": "10x10",
         "precio": 500,
+        "stock": 15, 
+         "img": "Adorno1.jpg"
+    },
+    {
+        "id":6,
+        "idCategoria": 3,
+        "nombre": "Pokemon",
+        "dimensiones": "10x10",
+        "precio": 500,
         "stock": 8, 
-         "img": "Carrito32.png"
+         "img": "Mate.jpg"
+    },
+
+      {
+        "id":7,
+        "idCategoria": 3,
+        "nombre": "Pokemon",
+        "dimensiones": "10x10",
+        "precio": 500,
+        "stock": 8, 
+         "img": "Pokemon2.jpg"
+    },
+    {
+        "id":8,
+        "idCategoria": 3,
+        "nombre": "Pokemon",
+        "dimensiones": "10x10",
+        "precio": 500,
+        "stock": 5, 
+         "img": "Pokemon1.jpg"
     }
 ]

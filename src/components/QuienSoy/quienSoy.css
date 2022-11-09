@@ -1,0 +1,26 @@
+.Quien-soy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+  margin: auto;
+}
+.Quien-soy img {
+  width: 20vw;
+  margin-top: 5rem;
+  border: 2px;
+  box-shadow: 2px 2px 3px rgb(173, 169, 170);
+}
+.Quien-soy .card {
+  border-color: aqua;
+}
+.Quien-soy .card p {
+  height: 30vh;
+  width: 25vw;
+  padding: 4rem;
+  font-size: 17px;
+  text-align: center;
+  word-spacing: 2px;
+}/*# sourceMappingURL=quienSoy.css.map */

@@ -1,9 +1,10 @@
 import React from 'react';
+import Checkout from '../Checkout/Checkout';
 
 const Cart = () => {
     return (
         <div>
-          < h1>Carrito</h1>
+          <Checkout/>
         </div>
     );
 }

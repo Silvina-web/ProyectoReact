@@ -1,6 +1,14 @@
-import React from 'react';
+import ItemCount from '../ItemCount/ItemCount';
+
+import { Link } from 'react-router-dom';
+
 
 const ItemDetail = ({producto}) => {
+
+       const onAdd=(contador)=>{
+        console.log(contador)
+       }
+
     return (
         <div>
              <div className="card border-warning mb-3"  style={{maxWidth: '20rem'}} >
@@ -11,7 +19,11 @@ const ItemDetail = ({producto}) => {
                         <p className="card-text">Medidas : {producto.dimensiones}</p>
                         <p className="card-text">${producto.precio}</p>
                         <p className="card-text">Stock :{producto.stock}</p>
-                        <button className="btn btn-outline-warning">Comprame</button>
+                        <ItemCount stock={producto.stock}  onAdd={onAdd} />
+                        <br />
+                         <button className="btn btn-outline-warning"> 
+                                <Link to="/Cart" className="nav-link">Finalizar</Link>
+                         </button> 
                       </div>
                     </div>
         </div>

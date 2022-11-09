@@ -3,7 +3,7 @@
 }
 
 .btn-outline-success:hover {
-    background-color: rgb(243, 11, 11);
+    background-color: rgb(45, 179, 123);
 }
 .btn-outline-success:active{
     color: rgb(255, 38, 0);
@@ -11,4 +11,35 @@
 }
 .navbar.bg-light{
     border-color: rgb(231, 10, 176);
+}
+
+.btn-secondary-home{
+   
+  background-color: rgba(241, 31, 31, 0.795);
+}
+.btn-secondary-quien-soy{
+    background-color: rgba(238, 89, 44, 0.781);
+}
+.btn-secondary-categoria1{
+    background-color: rgba(243, 243, 14, 0.836);
+}
+.btn-secondary-categoria2{
+    background-color: rgba(12, 150, 12, 0.664);
+}
+.btn-secondary-categoria3{
+    background-color: rgba(82, 82, 231, 0.733);
+}
+.btn-secondary-all{
+    background-color: rgba(137, 43, 226, 0.596);
+}
+.btn-secondary-contacto{
+    background-color: rgba(252, 130, 211, 0.863);
+}
+.navbar-collapse{
+    
+    margin-right: 5rem
+}
+
+.navbar-collapse ul{
+    margin:auto
 }

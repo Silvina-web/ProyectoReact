@@ -1,12 +1,16 @@
+/* Esta etiqueta p viene de Item.jsx */
 p {
   width: 18rem;
   height: 2rem;
-  background-color: rgb(73, 201, 56);
 }
 
 .ver-todo {
+  width: 80vw;
+  margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5rem;
   margin-top: 5rem;
 }/*# sourceMappingURL=ItemListContainer.css.map */
