@@ -1,6 +1,11 @@
 import React from 'react';
 import './app.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+
+//context
+import { PikachuModeProvider } from '../context/darkMode';
+
+//Componentes
 import Navbar from './Navbar/Navbar';
 /* import Contador from './ItemCount/ItemCount'; */
 import Home from './Home/Home';
@@ -16,6 +21,9 @@ import Cart from './Cart/Cart';
 const App = () => {
   return (
 <>
+
+<PikachuModeProvider>
+
 <BrowserRouter>
     <Navbar/>
     <Routes>
@@ -29,6 +37,8 @@ const App = () => {
       {/*  <Route path='/category/:idCategoria' element= {<ItemListContainer/>}/> */}
        </Routes>
  </BrowserRouter>
+
+ </PikachuModeProvider>
 
 
 {/* <Contador/> */}

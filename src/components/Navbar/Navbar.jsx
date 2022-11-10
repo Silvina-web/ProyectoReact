@@ -4,6 +4,11 @@ import Buscador from '../Buscador/Buscador';
 import Dropdown from './Dropdown/Dropdown';
 import CartWidget from '../CartWidget/CartWidget';
 
+/* import { useContext } from 'react';
+import { PikachuModeContext } from '../../context/darkMode.js'; */
+
+/* import { PikachuModeContext } from '../../context/darkMode'; */
+
 
 
 const Navbar = () => {
@@ -64,15 +69,15 @@ const Navbar = () => {
                      </Link>
              </li>
 
+            {/*  <button className={pikachuMode ? 'btn btn-light' : 'btn btn-dark'}   onClick={()=> togglePikachuMode()}>Modo Pikachu</button>
+ */}
           
        {/*  <Dropdown/> */}
          {/*  <li className="nav-item">
             <a className="nav-link disabled">Disabled</a>
 
           </li> */}
-
-          
-         {/*  <li className="nav-item">
+ {/*  <li className="nav-item">
             <a className="nav-link" href="#"> <button> <img src="./img/Carrito32.png" alt="Carro de compras" /></button> </a>
           </li> */}
          </ul>

@@ -2,3 +2,10 @@
 .detalleProducto{
     max-width: 10rem;
 }
+
+
+.pikachuMode{
+
+    background-color: rgba(252, 252, 56, 0.829);
+    color: red;
+}
