@@ -5,12 +5,11 @@
   margin: auto;
   margin-top: 6rem;
   justify-content: center;
-  outline: 5px solid blue;
 }
 .home-img .card {
   border-color: rgb(238, 58, 169);
 }
-.home-img .card-body img {
+.home-img img {
   margin-top: 2rem;
   align-self: center;
   width: 15vw;
