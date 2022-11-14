@@ -1,5 +1,13 @@
-body{
+ body{
     background-color: rgb(255, 255, 255);
     color:rgba(7, 7, 7, 0.836);
     transition: all ease 2s;
-}
+} 
+
+/* .pikachuMode{
+
+    background-color: rgba(255, 255, 0, 0.747);
+    color: rgba(255, 0, 0, 0.767);
+    transition: all ease 2s;
+    
+} */

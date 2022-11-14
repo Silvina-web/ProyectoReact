@@ -33,6 +33,7 @@ const decrementar =()=> contador > 1 && setContador(contador - 1)
             <button onClick={incrementar}  className='btn-btn-dark'>+</button>
                    {contador}
             <button onClick={decrementar} className='btn-btn-light'>-</button>
+            
             <button className="btn btn-outline-warning" onClick={agregarAlCarrito}>Comprame</button>
         </>
     );

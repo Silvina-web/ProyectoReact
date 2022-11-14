@@ -1,17 +1,16 @@
 .home-img {
-  width: 70vw;
-  height: 65vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto;
   margin-top: 6rem;
   justify-content: center;
+  outline: 5px solid blue;
 }
 .home-img .card {
   border-color: rgb(238, 58, 169);
 }
-.home-img img {
+.home-img .card-body img {
   margin-top: 2rem;
   align-self: center;
   width: 15vw;

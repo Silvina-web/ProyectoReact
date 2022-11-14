@@ -1,17 +1,21 @@
 import{Link} from 'react-router-dom'
 import './navbar.css'
-import Buscador from '../Buscador/Buscador';
-import Dropdown from './Dropdown/Dropdown';
+/* import Buscador from '../Buscador/Buscador';
+import Dropdown from './Dropdown/Dropdown'; */
 import CartWidget from '../CartWidget/CartWidget';
+/* import { pikachuMode, togglePikachuMode } from '../../context/darkMode'; */
 
-/* import { useContext } from 'react';
-import { PikachuModeContext } from '../../context/darkMode.js'; */
+import { useContext } from 'react';
+import { PikachuModeContext } from '../../context/darkMode.js'; 
 
 /* import { PikachuModeContext } from '../../context/darkMode'; */
 
 
 
 const Navbar = () => {
+
+  const {pikachuMode, togglePikachuMode}= useContext(PikachuModeContext)
+
     return (
     
              <nav className="navbar navbar-expand-lg bg-light">
@@ -69,8 +73,8 @@ const Navbar = () => {
                      </Link>
              </li>
 
-            {/*  <button className={pikachuMode ? 'btn btn-light' : 'btn btn-dark'}   onClick={()=> togglePikachuMode()}>Modo Pikachu</button>
- */}
+              <button className={pikachuMode ? 'btn btn-light' : 'btn btn-dark'}   onClick={()=> togglePikachuMode()}> <img src="../img/pikachu.png" alt="" /> </button>
+ 
           
        {/*  <Dropdown/> */}
          {/*  <li className="nav-item">

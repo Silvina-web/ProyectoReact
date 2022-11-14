@@ -1,10 +1,17 @@
 
 import React from 'react';
 import "./home.css"
+/* import { pikachuMode, togglePikachuMode } from '../../context/darkMode'; */
+import { useContext } from 'react';
+import { PikachuModeContext } from '../../context/darkMode.js';  
 
 const Home = () => {
+
+  const {pikachuMode}= useContext(PikachuModeContext)
+
+  
   return (
-    <div className="home-img">
+    <div className={pikachuMode ?"pikachuMode home-img" : "home-img"}>
        
    
        <div class="card">

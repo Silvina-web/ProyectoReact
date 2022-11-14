@@ -1,9 +1,11 @@
 import React from 'react';
 import './app.css'
+
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 //context
 import { PikachuModeProvider } from '../context/darkMode';
+import { CartContextProvider } from '../context/CartContext';
 
 //Componentes
 import Navbar from './Navbar/Navbar';
@@ -23,8 +25,9 @@ const App = () => {
 <>
 
 <PikachuModeProvider>
-
+{/* <CartContextProvider> */}
 <BrowserRouter>
+
     <Navbar/>
     <Routes>
        <Route path='/' element={<Home/>}/>
@@ -36,9 +39,12 @@ const App = () => {
        <Route path='/Contacto' element={<Contacto/>}/>
       {/*  <Route path='/category/:idCategoria' element= {<ItemListContainer/>}/> */}
        </Routes>
+      
  </BrowserRouter>
 
+ {/* </CartContextProvider> */}
  </PikachuModeProvider>
+ 
 
 
 {/* <Contador/> */}

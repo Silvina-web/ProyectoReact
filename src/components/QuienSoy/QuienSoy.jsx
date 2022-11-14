@@ -1,10 +1,17 @@
 import React from 'react';
 import './quienSoy.css'
 
+import { useContext } from 'react';
+import { PikachuModeContext } from '../../context/darkMode.js';  
+
 const QuienSoy = () => {
+
+    const {pikachuMode, } = useContext(PikachuModeContext)
     return (
-        <div className='Quien-soy'>
-                <img src="../img/QuienSoy.jpg" alt="" />
+        <div className={pikachuMode ? 'Quien-soy pikachuMode' :'Quien-soy'}> 
+              
+         {/*   <div className='Quien-soy'>  */}
+      <img src="../img/QuienSoy.jpg" alt="" />
                
              <div class="card">
                  <div class="card-body">

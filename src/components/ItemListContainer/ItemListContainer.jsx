@@ -35,9 +35,11 @@ const ItemListContainer = () => {
    }
 }, [category]);
 
+
+
     return (
         <div className= {pikachuMode ? 'ver-todo pikachuMode' : 'ver-todo'} >
-            <button className={pikachuMode ? 'btn btn-light' : 'btn btn-dark'}   onClick={()=> togglePikachuMode()}>Modo Pikachu</button>
+           {/*  <button className={pikachuMode ? 'btn btn-light' : 'btn btn-dark'}   onClick={()=> togglePikachuMode()}>Modo Pikachu</button> */}
             {productos}
         </div>
     );

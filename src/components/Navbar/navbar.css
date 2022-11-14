@@ -43,3 +43,11 @@
 .navbar-collapse ul{
     margin:auto
 }
+
+.btn-light{
+    background-color: rgba(193, 196, 37, 0.733);
+}
+.btn-dark{
+    background-color: rgba(224, 37, 37, 0.719);
+    border: none;
+}

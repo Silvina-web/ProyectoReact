@@ -1,0 +1,15 @@
+/* .detalleProducto{
+    width: 35vw;
+} */
+
+/* .card{
+    outline: 3px solid red;
+    width: 30vw;
+} */
+
+ .itemDetail{
+  /*   outline: 2px solid red; */
+    margin-top: 2rem;
+    height: 85vh;
+    width: 100%;
+}
