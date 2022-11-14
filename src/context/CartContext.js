@@ -1,13 +1,15 @@
-import { useContext, useState, createContext } from "react";
+import { useContext, useState, createContext } from "react"; 
 
 
 
-const CartContext= createContext([])
+ const CartContext= createContext([]) 
 
-const CartContextProvider =(props)=>{
+ const CartContextProvider =(props)=>{
 
-    const [cart, setCart] = useState([]);
+    const [cart, setCart] = useState([]); 
 
+
+    
     const isInCart=(id)=>{
         return cart.find(prod=> prod.id === id)
 
@@ -57,13 +59,15 @@ const CartContextProvider =(props)=>{
         return cart.reduce((acum, prod)=> acum += (prod.cant * prod.precio),0)
     }
 
+
+    
 return (
     <CartContext.Provider value= {{cart, isInCart, addItem, emptyCart, removeItem, getItemQuantity, totalPrice}}>
-        {props.childrem}
-    </CartContext.Provider>
+        {props.children}
+    </CartContext.Provider> 
+
+
 )
+ }
 
-
-}
-
- export {CartContextProvider, CartContext}   
+export {CartContextProvider, CartContext}    

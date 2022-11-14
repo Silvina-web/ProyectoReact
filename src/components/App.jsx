@@ -25,7 +25,7 @@ const App = () => {
 <>
 
 <PikachuModeProvider>
-<CartContextProvider>  
+   <CartContextProvider>  
 <BrowserRouter>
 
     <Navbar/>
@@ -42,7 +42,7 @@ const App = () => {
       
  </BrowserRouter>
 
-  </CartContextProvider>
+ </CartContextProvider>
  </PikachuModeProvider>
  
 
