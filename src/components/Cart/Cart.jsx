@@ -11,7 +11,8 @@ const Cart = () => {
 
 
      const {cart, emptyCart, totalPrice, removeItem}= useContext(CartContext);
-     
+
+    
 
     return (
         <>
@@ -41,7 +42,11 @@ const Cart = () => {
                                             <p className="card-text">Cantidad:{prod.cant}</p>
                                             <p className="card-text">Cuanto sale de cada uno: $ {prod.precio}</p>
                                             <p className="card-text">Cuanto sale todo: $ {prod.precio * prod.cant}</p>
-                                           {/*  <ItemCount stock={prod.stock}  onAdd={onAdd} /> */}
+
+                                            
+                                            <ItemCount stock={prod.stock}  onAdd={onAdd} /> 
+
+                                         
                                    </div>
                                    <button className='btn btn-danger' onClick={()=> removeItem(prod.id) }>Borrar</button>
                               </div>
