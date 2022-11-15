@@ -1,3 +1,4 @@
+import React from 'react';
 import{Link} from 'react-router-dom'
 import './navbar.css'
 /* import Buscador from '../Buscador/Buscador';
@@ -12,7 +13,7 @@ import { PikachuModeContext } from '../../context/darkMode.js';
 
 
 
-const Navbar = () => {
+const Navbar = React.memo( () => {
 
   const {pikachuMode, togglePikachuMode}= useContext(PikachuModeContext)
 
@@ -95,5 +96,6 @@ const Navbar = () => {
         
     );
 }
+)
 
 export default Navbar;

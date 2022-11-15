@@ -16,6 +16,7 @@ import Contacto from './Contacto/Contacto';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Cart from './Cart/Cart';
+import Checkout from './Checkout/Checkout';
 /* import CartWidget from './CartWidget/CartWidget'; */
 /* import AllProducts from './AllProducts/AllProducts';
  */
@@ -37,6 +38,7 @@ const App = () => {
        <Route path='/cart' element={<Cart/>}/>
        <Route path='/category/:category' element={<ItemListContainer/>}/>
        <Route path='/Contacto' element={<Contacto/>}/>
+       <Route path='/Checkout'  element={<Checkout/>}/>
       {/*  <Route path='/category/:idCategoria' element= {<ItemListContainer/>}/> */}
        </Routes>
       
