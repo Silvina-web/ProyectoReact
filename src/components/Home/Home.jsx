@@ -12,6 +12,7 @@ const Home = () => {
   
   return (
     <div className={pikachuMode ?"pikachuMode home-img" : "home-img"}>
+         
           <div class="card"> 
              <div class="card-body"> 
              

@@ -1,0 +1,44 @@
+.Carro-Vacio {
+  height: 100vh;
+  text-align: center;
+  padding: 10rem;
+}
+.Carro-Vacio .border-danger {
+  margin: auto;
+}
+.Carro-Vacio .border-danger .card-body img {
+  border-radius: 3px;
+}
+.Carro-Vacio .border-danger .card-body .btn-dark {
+  margin-top: 1rem;
+}
+
+.Card-Finalizar {
+  outline: 5px solid blue;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Card-Finalizar .Horizontal-card {
+  margin: auto;
+  width: 30vw;
+}
+.Card-Finalizar .Horizontal-card .border-warning-finalizar {
+  width: 30vw;
+  margin-top: 2rem;
+  height: 19vh;
+  display: flex;
+  flex-direction: row;
+  border-color: rgba(224, 224, 26, 0.623);
+}
+.Card-Finalizar .Horizontal-card .border-warning-finalizar img {
+  padding: 0.3rem;
+}
+.Card-Finalizar .Horizontal-card .border-warning-finalizar .btn-danger {
+  height: 3rem;
+  margin-top: 3rem;
+}
+.Card-Finalizar .Card-CuentaTotal {
+  text-align: center;
+  margin: auto;
+}/*# sourceMappingURL=cart.css.map */

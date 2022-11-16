@@ -1,20 +1,22 @@
 .Quien-soy {
+  height: 86vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  width: 50vw;
+  width: 100vw;
   margin: auto;
 }
 .Quien-soy img {
   width: 20vw;
-  margin-top: 5rem;
+  margin: auto;
   border: 2px;
   box-shadow: 2px 2px 3px rgb(173, 169, 170);
 }
 .Quien-soy .card {
   border-color: aqua;
+  margin: auto;
 }
 .Quien-soy .card p {
   height: 30vh;

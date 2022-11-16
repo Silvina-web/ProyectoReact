@@ -1,26 +1,28 @@
 .Quien-soy{
+  height: 86vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 50vw;
+    width: 100vw;
     margin: auto;
 
 
        img{
         width: 20vw;
-         margin-top: 5rem; 
+       margin: auto;
         border: 2px;
         box-shadow: 2px 2px 3px rgb(173, 169, 170);
        }
 
        .card{
-  border-color: aqua;
+           border-color: aqua;
+           margin: auto;
        
         p{
-      height: 30vh;
-        width: 25vw;
+         height: 30vh;
+           width: 25vw;
         padding:  4rem; 
         font-size: 17px;
         text-align: center;

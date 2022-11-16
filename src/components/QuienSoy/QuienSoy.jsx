@@ -10,8 +10,8 @@ const QuienSoy = () => {
     return (
         <div className={pikachuMode ? 'Quien-soy pikachuMode' :'Quien-soy'}> 
               
-         {/*   <div className='Quien-soy'>  */}
-      <img src="../img/QuienSoy.jpg" alt="" />
+        
+              <img src="../img/QuienSoy.jpg" alt="" />
                
              <div class="card">
                  <div class="card-body">

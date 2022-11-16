@@ -1,0 +1,65 @@
+.Carro-Vacio{
+    height: 100vh;
+    text-align: center;
+    padding: 10rem;
+      .border-danger{
+        margin: auto;
+         .card-body{
+        
+        img{
+            border-radius: 3px;
+        }
+        .btn-dark{
+            margin-top: 1rem;
+        }
+    }
+}
+}
+
+// fin carro vacio
+.Card-Finalizar{
+    outline: 5px solid blue;
+    height: 100vh;
+   
+    display: flex;
+    flex-wrap: wrap;
+
+
+.Horizontal-card{
+    
+    margin: auto;
+    width: 30vw;
+    
+ .border-warning-finalizar{
+        width: 30vw;
+        margin-top: 2rem;
+        height: 19vh;
+        display: flex;
+        flex-direction: row;  
+       
+        border-color: rgba(224, 224, 26, 0.623);
+        img{
+            padding: .3rem;
+        }
+
+        .btn-danger{
+            height: 3rem;
+            margin-top: 3rem;
+        }
+      
+        
+    }
+}
+
+
+    .Card-CuentaTotal{
+        text-align: center;
+        margin: auto;
+    
+        
+        
+       
+      }
+    }
+
+

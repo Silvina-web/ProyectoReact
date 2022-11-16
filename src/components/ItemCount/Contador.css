@@ -1,4 +1,12 @@
 button {
   background-color: rgb(255, 255, 255);
+  padding: 0.6rem;
+  border: none;
+}
+
+.btn-compra {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem;
   border: none;
 }/*# sourceMappingURL=Contador.css.map */

@@ -13,7 +13,7 @@
     
 }  */
  .pikachuMode{
-    background-color: rgb(238, 241, 33);
-    color:rgb(216, 25, 25);
+    background-color: rgba(234, 238, 17, 0.664);
+    color:rgba(216, 25, 25, 0.815);
     transition: all ease 2s ;
 }  

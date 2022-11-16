@@ -5,7 +5,7 @@ const Item =({prod})=> {
     return(
 
         <div className="card border-warning mb-3"  style={{maxWidth: '20rem'}} >
-        <img src={`../img/${prod.img}`} className ="card-img-top" alt="" />
+        <img src={prod.img} className ="card-img-top" alt="" />
        {/*  <div className="card-header">Header</div> */}
         <div className="card-body">
          <h4 className="card-title">{prod.nombre}</h4>

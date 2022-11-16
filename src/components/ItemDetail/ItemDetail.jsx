@@ -18,9 +18,9 @@ const ItemDetail = ({producto}) => {
        }
 
     return (
-        <div className='main-itemDetail'>
+        <div>
              <div className="card border-warning mb-3"  style={{maxWidth: '18rem'}} >
-                       <img src={`../img/${producto.img}`} className ="card-img-top" alt="" />
+                       <img src={producto.img} className ="card-img-top" alt="" />
                       {/*  <div className="card-header">{producto.nombre}</div> */}
                        <div className="card-body">
                         <h4 className="card-title">{producto.nombre}</h4>

@@ -1,17 +1,18 @@
 .home-img{
-    
+     height: 100vh;
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
       margin: auto;
-      margin-top: 6rem;
+     /*  margin-top: 6rem; */
       justify-content: center;
      
       
      
    .card{
-   
+    height: 60vh;
     border-color: rgb(238, 58, 169);
+    margin-top: 5rem;
    }
    
 

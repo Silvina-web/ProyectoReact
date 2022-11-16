@@ -1,0 +1,11 @@
+.nav-item-carrito {
+  border: 1px solid orange;
+  border-radius: 5px;
+  width: 4rem;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.nav-item-carrito p {
+  margin-bottom: -0.9rem;
+  color: rgb(252, 10, 252);
+}/*# sourceMappingURL=cartWidget.css.map */

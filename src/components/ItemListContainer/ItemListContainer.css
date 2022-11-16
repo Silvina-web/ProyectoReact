@@ -5,13 +5,15 @@ p {
 }
 
 .ver-todo {
-  /*  width: 80vw;  */
-  /*  height: 85vh; */
   margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 5rem;
-  margin-top: 5rem;
+  padding: 5rem;
+}
+
+.border-warning {
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.616);
 }/*# sourceMappingURL=ItemListContainer.css.map */

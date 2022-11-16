@@ -1,9 +1,8 @@
-.border-warning{
-  /*   outline: 2px solid red; */
-    margin: auto;
+.btn-outline-warning{
+    text-align: center;
+    outline: 5px solid red;
+
+    
+
 }
 
-.main-itemDetail{
-  /*   outline: 5px solid blue;
-    width: 95vw; */
-}

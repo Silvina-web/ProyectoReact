@@ -40,7 +40,8 @@ const App = () => {
        <Route path='/Contacto' element={<Contacto/>}/>
        <Route path='/Checkout'  element={<Checkout/>}/>
       {/*  <Route path='/category/:idCategoria' element= {<ItemListContainer/>}/> */}
-       </Routes>
+
+    </Routes>
       
  </BrowserRouter>
 

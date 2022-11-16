@@ -6,7 +6,7 @@
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 10, 
-         "img": "Plato1.jpg"
+         "img": "https://firebasestorage.googleapis.com/v0/b/lisa-arteenceramica.appspot.com/o/Plato1.jpg?alt=media&token=a9fe8c28-4d38-4895-819f-64df909722a5"
     },
     {
         "id":2,
@@ -15,7 +15,7 @@
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 3, 
-         "img": "Plato2.jpg"
+         "img": "https://firebasestorage.googleapis.com/v0/b/lisa-arteenceramica.appspot.com/o/Plato2.jpg?alt=media&token=442e9869-3f1e-4d8c-b35e-a9345462d224"
     },
     {
         "id":3,
@@ -24,7 +24,7 @@
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 5, 
-         "img": "Pote1.jpg"
+         "img": "https://firebasestorage.googleapis.com/v0/b/lisa-arteenceramica.appspot.com/o/Pote1.jpg?alt=media&token=b4e43ca6-c1bd-4c7b-83c3-29b0002516d3"
     },
     {
         "id":4,
@@ -33,7 +33,7 @@
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 6, 
-         "img": "Jirafa.jpg"
+         "img": "https://firebasestorage.googleapis.com/v0/b/lisa-arteenceramica.appspot.com/o/Jirafa.jpg?alt=media&token=ad3d5fcd-83c1-46b3-8eea-64d566b94561"
     },
     {
         "id":5,
@@ -42,7 +42,7 @@
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 15, 
-         "img": "Adorno1.jpg"
+         "img": "https://firebasestorage.googleapis.com/v0/b/lisa-arteenceramica.appspot.com/o/Adorno1.jpg?alt=media&token=1cb795cd-5f52-4944-90dc-30b2a86da78d"
     },
     {
         "id":6,
@@ -51,7 +51,7 @@
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 8, 
-         "img": "Mate.jpg"
+         "img": "https://firebasestorage.googleapis.com/v0/b/lisa-arteenceramica.appspot.com/o/Mate.jpg?alt=media&token=b643d1d8-f009-4d6a-9ebf-e93c4ea4dc3f"
     },
 
       {
@@ -61,7 +61,7 @@
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 8, 
-         "img": "Pokemon2.jpg"
+         "img": "https://firebasestorage.googleapis.com/v0/b/lisa-arteenceramica.appspot.com/o/Pokemon2.jpg?alt=media&token=385e33a8-62b6-4f0b-9031-0ede8d7a01ba"
     },
     {
         "id":8,
@@ -70,6 +70,6 @@
         "dimensiones": "10x10",
         "precio": 500,
         "stock": 5, 
-         "img": "Pokemon1.jpg"
+         "img": "https://firebasestorage.googleapis.com/v0/b/lisa-arteenceramica.appspot.com/o/Pokemon1.jpg?alt=media&token=d6f23822-063c-4388-b1cc-2dddfdb1e5f0"
     }
 ]

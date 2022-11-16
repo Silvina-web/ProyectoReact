@@ -75,6 +75,7 @@ const Navbar = React.memo( () => {
              </li>
 
               <button className={pikachuMode ? 'btn btn-light' : 'btn btn-dark'}   onClick={()=> togglePikachuMode()}> <img src="../img/pikachu.png" alt="" /> </button>
+             
  
           
        {/*  <Dropdown/> */}
@@ -99,3 +100,4 @@ const Navbar = React.memo( () => {
 )
 
 export default Navbar;
+
