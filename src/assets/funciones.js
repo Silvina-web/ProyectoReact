@@ -1,4 +1,4 @@
-import {cargarBDD} from "./firebase" 
+import {cargarBDD, getProductos} from "./firebase" 
 
 
 export const consultarJson = async (ruta)=>{
@@ -10,5 +10,7 @@ export const consultarJson = async (ruta)=>{
   
 } 
 
- cargarBDD() 
+  //cargarBDD() 
 
+ console.log(getProductos())
+ 

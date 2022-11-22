@@ -13,8 +13,8 @@ const QuienSoy = () => {
         
               <img src="../img/QuienSoy.jpg" alt="" />
                
-             <div class="card">
-                 <div class="card-body">
+             <div className="card">
+                 <div className="card-body">
                  <p>Me llamo Lisa y tengo 8 años, hace 2 años que voy a Cerámica, me gusta mucho, la paso super bien, mi profe Gaby es muy bueno y divertido y mis compañeros de ceramica tambien.
                 También me gusta mucho pintar.
                 </p>

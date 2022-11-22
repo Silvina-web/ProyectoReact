@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState, useEffect, useContext } from 'react';
 import ItemList from '../ItemList/ItemList';
-import { consultarJson } from '../../assets/funciones';
+ import { consultarJson } from '../../assets/funciones'; 
+/* import { getProductos } from '../../assets/firebase'; */
 import { useParams } from 'react-router-dom';
 import { PikachuModeContext } from '../../context/darkMode.js';
 import "./ItemListContainer.css"

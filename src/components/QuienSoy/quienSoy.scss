@@ -1,19 +1,21 @@
 .Quien-soy{
-  height: 86vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100vw;
-    margin: auto;
+      height: 86vh;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100vw;
+      margin: auto;
 
 
        img{
         width: 20vw;
-       margin: auto;
+        margin: auto;
         border: 2px;
         box-shadow: 2px 2px 3px rgb(173, 169, 170);
+        
+
        }
 
        .card{
@@ -32,4 +34,32 @@
        }
       
 }
+
+@media (max-width: 800px) {
+  outline: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  height: 130vh;
+  img{
+    width: 60vw;
+    
+  }
+
+
+.card{
+
+  border-color: rgb(223, 46, 22);
+  width: 70vw;
+  margin-top: -3rem;
+
+  p{
+    width: 65vw;
+    font-size: 3vw;
+  }
+
+}
+ 
+  
+}
+
 }
