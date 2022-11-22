@@ -9,7 +9,7 @@ const cliente={
     apellido: "Perez",
     email: "Silvina@perez.com", 
     dni: 253526,
-    direccion: "Calle 5 entre 6 y 7"
+    direccion: "Calle 5 entre 6 y 9"
 }
 
 //createOrdenCompra(cliente, 3800).then(orden=> console.log(orden))
