@@ -1,35 +1,68 @@
 .Carro-Vacio{
+    outline: 5px solid blue;
     height: 100vh;
     text-align: center;
     padding: 10rem;
       .border-danger{
+        outline: 5px solid pink;
         margin: auto;
          .card-body{
-        
-        img{
-            border-radius: 3px;
-        }
+              img{
+                border-radius: 3px;
+                outline: 5px solid red;
+                }
         .btn-dark{
             margin-top: 1rem;
         }
     }
 }
+
+@media  (max-width: 780px){
+    outline: 5px solid rgb(240, 17, 9);
+    
+
+    .border-danger{
+        outline: 5px solid rgb(226, 100, 16);
+        width: 70vw;
+        margin-left: -7rem;
+        
+         .card-body{
+            
+              img{
+                border-radius: 3px;
+                outline: 5px solid rgb(8, 204, 89);
+                width: 50vw;
+                }
+              .btn-dark{
+            margin-top: 1rem;
+                     }
+    }
+}
+
+
+}
+
 }
 
 // fin carro vacio
 .Card-Finalizar{
-    outline: 5px solid blue;
-    height: 100vh;
-   
-    display: flex;
-    flex-wrap: wrap;
+     outline: 5px solid brown; 
+     height: 90vh;
+     padding: 5rem;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
     
 
 
 .Horizontal-card{
-    
+    outline: 5px solid blue;
     margin: auto;
     width: 30vw;
+    .card-text{
+        outline: 5px solid yellow; 
+       
+    }
     
  .border-warning-finalizar{
         width: 30vw;
@@ -57,9 +90,40 @@
         text-align: center;
         margin: auto;
     
-        
+        @media  (max-width: 780px) {
+            outline: 5px solid grey;
+            margin-left: -2.5rem;
+        }
         
        
+      }
+
+      @media  (max-width: 780px){
+        background-color: aqua;
+
+        .Horizontal-card{
+            outline: 5px solid pink;
+
+            .border-warning-finalizar{
+                width: 90vw;
+                margin-left: -8rem;
+            }
+
+            .card-text{
+                outline: 3px solid brown;
+                width: 32vw;
+                height: 20px;
+                font-size: 11px;
+            }
+
+            .btn-danger{
+                outline: 3px solid yellowgreen;
+                padding: .5rem;
+               
+                
+            }
+            
+        }
       }
     }
 

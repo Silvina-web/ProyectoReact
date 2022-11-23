@@ -1,8 +1,10 @@
 import React from 'react';
 import './checkout.css'
-
+import { useNavigate } from 'react-router-dom';
+import { toast} from 'react-toastify'
+ 
 const Checkout = () => {
-
+    let navigate= useNavigate()
     const datosFormulario = React.useRef()
     const consultarFormulario = (e) => {
         e.preventDefault()

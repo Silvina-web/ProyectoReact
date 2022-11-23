@@ -5,7 +5,7 @@ import { getFirestore, collection, addDoc, getDocs, getDoc, doc, updateDoc, dele
 
 
 const firebaseConfig = {
-  /*  apiKey: "AIzaSyDQUEH2IEYp0idmUlXJFmPSptyP8weYYNY",  */
+
   apiKey: process.env.API_KEY,  
   authDomain: "lisa-arteenceramica.firebaseapp.com",
   projectId: "lisa-arteenceramica",

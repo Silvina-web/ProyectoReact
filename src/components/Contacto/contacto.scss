@@ -1,0 +1,33 @@
+.Contacto{
+       height: 86vh; 
+
+
+    .contacto-titulo{
+           text-align: center;
+           padding-top: 5rem;
+           
+ }
+
+ .main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 9rem;
+
+    .Direccion{
+         ul{
+            li{
+                padding: 1rem;
+            }
+         }
+    }
+
+    .redes{
+        img{
+            padding: 1rem;
+        }
+    }
+ }
+    
+}
