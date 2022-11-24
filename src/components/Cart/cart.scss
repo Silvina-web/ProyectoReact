@@ -98,6 +98,11 @@
        
       }
 
+      @media (max-width:1500px){
+
+         display: contents;
+        flex-direction: row; 
+      }
       @media  (max-width: 780px){
         background-color: aqua;
 
@@ -125,6 +130,8 @@
             
         }
       }
+
+      
     }
 
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import './app.css'
 import {ToastContainer} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
@@ -29,7 +30,7 @@ const App = () => {
 <PikachuModeProvider>
    <CartContextProvider>  
 <BrowserRouter>
-
+ <ToastContainer/>
     <Navbar/>
     <Routes>
        <Route path='/' element={<Home/>}/>
@@ -40,6 +41,7 @@ const App = () => {
        <Route path='/category/:category' element={<ItemListContainer/>}/>
        <Route path='/Contacto' element={<Contacto/>}/>
        <Route path='/Checkout'  element={<Checkout/>}/>
+       
       {/*  <Route path='/category/:idCategoria' element= {<ItemListContainer/>}/> */}
 
     </Routes>

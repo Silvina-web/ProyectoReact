@@ -1,19 +1,47 @@
-import React from 'react';
+import React , {useContext} from 'react';
+import { createOrdenCompra, getProducto, updateProducto} from "../../assets/firebase.js"
 import './checkout.css'
 import { useNavigate } from 'react-router-dom';
+import { CartContext} from "../../context/CartContext"
 import { toast} from 'react-toastify'
  
 const Checkout = () => {
+
     let navigate= useNavigate()
+
     const datosFormulario = React.useRef()
+ 
+    const {cart, emptyCard, totalPrice}= useContext(CartContext);
+
     const consultarFormulario = (e) => {
         e.preventDefault()
         console.log(datosFormulario)
 
         const datForm =new FormData(datosFormulario.current)
         const valores = Object.fromEntries(datForm)
-        console.log(valores)
+        const aux=[...cart]
+        console.log(aux)
+        aux.forEach(producto =>{
+            getProducto(producto.id)
+            .then(prod=>{
+                prod.stock -=producto.cant 
+                updateProducto(producto.id, prod)
+            })
+        })
+        
+       /*  e.target.reset() */
+
+       createOrdenCompra(valores, totalPrice(), new Date().toDateString()).then(orden=>{
+        console.log("Hola")
+        toast.colored(`Gracias ${orden.id} por comprar`)
+        emptyCard()
         e.target.reset()
+        navigate ("/")
+
+       }).catch(error=>{
+        toast.error ('Su compra fallo')
+        console.log(error)
+       })
     }
 
 
