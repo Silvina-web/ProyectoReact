@@ -78,10 +78,8 @@
     border-color: rgba(224, 224, 26, 0.623);
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 730px) {
   .Card-Finalizar {
-    display: flex;
-    flex-direction: column;
     /*  width: 100vw; */
   }
   .Card-Finalizar .Horizontal-card {

@@ -61,5 +61,36 @@
  
   
 }
+@media (max-width: 500px) {
+  outline: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  height: 130vh;
+  img{
+    width: 60vw;
+    
+  }
+
+
+.card{
+
+  border-color: rgb(223, 46, 22);
+  width: 75vw;
+  margin-top: -3rem;
+
+  p{
+    
+    width: 75vw;
+    font-size: 4vw;
+    margin: auto;
+    margin-top: -3rem;
+    
+  }
+
+}
+ 
+  
+}
+
 
 }

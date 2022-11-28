@@ -45,4 +45,26 @@
     width: 65vw;
     font-size: 3vw;
   }
+}
+@media (max-width: 500px) {
+  .Quien-soy {
+    outline: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+  }
+  .Quien-soy img {
+    width: 60vw;
+  }
+  .Quien-soy .card {
+    border-color: rgb(223, 46, 22);
+    width: 75vw;
+    margin-top: -3rem;
+  }
+  .Quien-soy .card p {
+    width: 75vw;
+    font-size: 4vw;
+    margin: auto;
+    margin-top: -3rem;
+  }
 }/*# sourceMappingURL=quienSoy.css.map */

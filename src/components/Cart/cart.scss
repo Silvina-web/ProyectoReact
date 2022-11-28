@@ -48,91 +48,73 @@
 
 //carro con productos
 .Card-Finalizar{
-    
-     height: 90vh;
-     padding: 5rem;
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-    
-        .Horizontal-card{
-          
-            margin: auto;
-            width: 35vw;
-            height: 30vh;
-             
-    
-              .border-warning-finalizar{
-                border-color: rgba(224, 224, 26, 0.623);
+      height: 90vh; 
+      padding: 5rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+               .Horizontal-card{
+                   margin: auto;
+                   width: 35vw;
+                   height: 30vh;
+             .border-warning-finalizar{
+                 border-color: rgba(224, 224, 26, 0.623);
                   width: 35vw;
                  height: 25vh !important ;
                   margin-top: 2rem;
                   height: 19vh;
                   display: flex;
                   flex-direction: row;  
-                
-                     img{
+                img{
                             padding: .3rem;
                          }
-
-                   .btn-danger{
+                 .btn-danger{
                        height: 3rem;
                        margin-top: 3rem;
                                }
-       }
-}//fin horizontal card
+                                     }
+                           }//fin horizontal card
 
 
-    .Card-CuentaTotal{
-        text-align: center;
-        margin: auto;
+          .Card-CuentaTotal{
+             text-align: center;
+             margin: auto;
     
-      
-
-    
-   
-
-      
-    }
+                                 }
 
 
  @media  (max-width: 1300px){
     display: flex;
     flex-direction: column;
-
-
-    .Horizontal-card{
-           margin: auto;
-           width: 45vw;
-           height: 30vh;
+                 .Horizontal-card{
+                     margin: auto;
+                     width: 45vw;
+                      height: 30vh;
          
-
-          .border-warning-finalizar{
-           
-              width: 55vw;
-              height: 25vh !important ;
-              margin-top: 2rem;
-              height: 19vh;
-              display: flex;
-              flex-direction: row;  
-              border-color: rgba(224, 224, 26, 0.623);
+                .border-warning-finalizar{
+                    width: 55vw;
+                    height: 25vh !important ;
+                    margin-top: 2rem;
+                    height: 19vh;
+                    display: flex;
+                    flex-direction: row;  
+                    border-color: rgba(224, 224, 26, 0.623);
           
-   }
-}
- }//fin horizontal resp 1300
+                                               }
+                                       }//fin horizontal card resp 1300
+ }//fin res 1300
 
 
- @media  (max-width: 520px){
-
-    display: flex;
-    flex-direction: column;
+ @media  (max-width: 730px){
+   
+   
    /*  width: 100vw; */
 
 
-    .Horizontal-card{
-           margin-left: -4.5rem;
-           width: 85vw;
-           height: 25vh;
+                .Horizontal-card{
+                  margin-left: -4.5rem;
+                  width: 85vw;
+                 height: 25vh;
          .card-text{
           
             width: 28vw;
@@ -156,23 +138,14 @@
       
      margin-right: 7rem;
 
-  
-            }
+   }
 
       
 }
 .Card-CuentaTotal{
     margin-left: -2rem;
   
-   
-
-  
-
-
-
-
-  
-}
+   }
 
 
  }//fin horizontal resp 520
