@@ -45,7 +45,7 @@ const Cart = () => {
 
                 { 
                      cart.map((prod, indice) => 
-                       <div className="card border-warning-finalizar mb-3"  key={indice} style={{maxHeight: '12rem'}}>
+                       <div className="card border-warning-finalizar mb-3"  key={indice} style={{maxHeight: '13rem'}}>
                                      <img src={prod.img} className ="card-img-to/* p" alt="" />
                                         
                                             <div className="card-body">
@@ -55,15 +55,15 @@ const Cart = () => {
                                             <p className="card-text">Cuanto sale todo: $ {prod.precio * prod.cant}</p>
                                               {/*   <ItemCount stock={prod.stock}  onAdd={onAdd} />   */}
 
-                                         
-                                   </div>
-                                   <button className='btn btn-danger' onClick={()=> removeItem(prod.id) }>Mejor no</button>  
-                                   
-                                    </div>
+                                             </div> 
+                                              <button className='btn btn-danger' onClick={()=> removeItem(prod.id) }>Mejor no</button>  
+                                            
+                                              </div>
+                                              
                                   )
                      }
  
-   </div>
+                  </div>
 
                      <div  className='Card-CuentaTotal' >
                                 <div className="card  border-warning mb-3" style={{maxWidth: '20rem'}}>

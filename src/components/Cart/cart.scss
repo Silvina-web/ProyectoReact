@@ -1,15 +1,15 @@
 .Carro-Vacio{
-    outline: 5px solid blue;
+  
     height: 100vh;
     text-align: center;
     padding: 10rem;
       .border-danger{
-        outline: 5px solid pink;
+       
         margin: auto;
          .card-body{
               img{
                 border-radius: 3px;
-                outline: 5px solid red;
+               
                 }
         .btn-dark{
             margin-top: 1rem;
@@ -18,11 +18,10 @@
 }
 
 @media  (max-width: 780px){
-    outline: 5px solid rgb(240, 17, 9);
-    
+   
 
     .border-danger{
-        outline: 5px solid rgb(226, 100, 16);
+       
         width: 70vw;
         margin-left: -7rem;
         
@@ -30,7 +29,7 @@
             
               img{
                 border-radius: 3px;
-                outline: 5px solid rgb(8, 204, 89);
+              
                 width: 50vw;
                 }
               .btn-dark{
@@ -44,94 +43,142 @@
 
 }
 
-// fin carro vacio
+// fin carro vacio  no tocar responsive
+
+
+//carro con productos
 .Card-Finalizar{
-     outline: 5px solid brown; 
+    
      height: 90vh;
      padding: 5rem;
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
     
-
-
-.Horizontal-card{
-    outline: 5px solid blue;
-    margin: auto;
-    width: 30vw;
-    .card-text{
-        outline: 5px solid yellow; 
-       
-    }
+        .Horizontal-card{
+          
+            margin: auto;
+            width: 35vw;
+            height: 30vh;
+             
     
- .border-warning-finalizar{
-        width: 30vw;
-        margin-top: 2rem;
-        height: 19vh;
-        display: flex;
-        flex-direction: row;  
-       
-        border-color: rgba(224, 224, 26, 0.623);
-        img{
-            padding: .3rem;
-        }
+              .border-warning-finalizar{
+                border-color: rgba(224, 224, 26, 0.623);
+                  width: 35vw;
+                 height: 25vh !important ;
+                  margin-top: 2rem;
+                  height: 19vh;
+                  display: flex;
+                  flex-direction: row;  
+                
+                     img{
+                            padding: .3rem;
+                         }
 
-        .btn-danger{
-            height: 3rem;
-            margin-top: 3rem;
-        }
-      
-        
-    }
-}
+                   .btn-danger{
+                       height: 3rem;
+                       margin-top: 3rem;
+                               }
+       }
+}//fin horizontal card
 
 
     .Card-CuentaTotal{
         text-align: center;
         margin: auto;
     
-        @media  (max-width: 780px) {
-            outline: 5px solid grey;
-            margin-left: -2.5rem;
-        }
-        
-       
-      }
+      
 
-      @media (max-width:1500px){
-
-         display: contents;
-        flex-direction: row; 
-      }
-      @media  (max-width: 780px){
-        background-color: aqua;
-
-        .Horizontal-card{
-            outline: 5px solid pink;
-
-            .border-warning-finalizar{
-                width: 90vw;
-                margin-left: -8rem;
-            }
-
-            .card-text{
-                outline: 3px solid brown;
-                width: 32vw;
-                height: 20px;
-                font-size: 11px;
-            }
-
-            .btn-danger{
-                outline: 3px solid yellowgreen;
-                padding: .5rem;
-               
-                
-            }
-            
-        }
-      }
+    
+   
 
       
     }
+
+
+ @media  (max-width: 1300px){
+    display: flex;
+    flex-direction: column;
+
+
+    .Horizontal-card{
+           margin: auto;
+           width: 45vw;
+           height: 30vh;
+         
+
+          .border-warning-finalizar{
+           
+              width: 55vw;
+              height: 25vh !important ;
+              margin-top: 2rem;
+              height: 19vh;
+              display: flex;
+              flex-direction: row;  
+              border-color: rgba(224, 224, 26, 0.623);
+          
+   }
+}
+ }//fin horizontal resp 1300
+
+
+ @media  (max-width: 520px){
+
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+
+    .Horizontal-card{
+           margin-left: -4.5rem;
+           width: 85vw;
+           height: 25vh;
+         .card-text{
+          
+            width: 28vw;
+           
+            font-size: 12px;
+                    }
+
+          .border-warning-finalizar{
+           
+              width: 93vw;
+              height: 25vh !important ;
+              margin-top: 2rem;
+              height: 19vh;
+              display: flex;
+              flex-direction: row;  
+            
+          
+   }
+
+   .btn-danger{
+      
+     margin-right: 7rem;
+
+  
+            }
+
+      
+}
+.Card-CuentaTotal{
+    margin-left: -2rem;
+  
+   
+
+  
+
+
+
+
+  
+}
+
+
+ }//fin horizontal resp 520
+
+ }
+
+
 
 

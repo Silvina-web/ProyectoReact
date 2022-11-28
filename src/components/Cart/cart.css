@@ -1,32 +1,24 @@
 .Carro-Vacio {
-  outline: 5px solid blue;
   height: 100vh;
   text-align: center;
   padding: 10rem;
 }
 .Carro-Vacio .border-danger {
-  outline: 5px solid pink;
   margin: auto;
 }
 .Carro-Vacio .border-danger .card-body img {
   border-radius: 3px;
-  outline: 5px solid red;
 }
 .Carro-Vacio .border-danger .card-body .btn-dark {
   margin-top: 1rem;
 }
 @media (max-width: 780px) {
-  .Carro-Vacio {
-    outline: 5px solid rgb(240, 17, 9);
-  }
   .Carro-Vacio .border-danger {
-    outline: 5px solid rgb(226, 100, 16);
     width: 70vw;
     margin-left: -7rem;
   }
   .Carro-Vacio .border-danger .card-body img {
     border-radius: 3px;
-    outline: 5px solid rgb(8, 204, 89);
     width: 50vw;
   }
   .Carro-Vacio .border-danger .card-body .btn-dark {
@@ -35,7 +27,6 @@
 }
 
 .Card-Finalizar {
-  outline: 5px solid brown;
   height: 90vh;
   padding: 5rem;
   display: flex;
@@ -43,20 +34,18 @@
   flex-wrap: wrap;
 }
 .Card-Finalizar .Horizontal-card {
-  outline: 5px solid blue;
   margin: auto;
-  width: 30vw;
-}
-.Card-Finalizar .Horizontal-card .card-text {
-  outline: 5px solid yellow;
+  width: 35vw;
+  height: 30vh;
 }
 .Card-Finalizar .Horizontal-card .border-warning-finalizar {
-  width: 30vw;
+  border-color: rgba(224, 224, 26, 0.623);
+  width: 35vw;
+  height: 25vh !important;
   margin-top: 2rem;
   height: 19vh;
   display: flex;
   flex-direction: row;
-  border-color: rgba(224, 224, 26, 0.623);
 }
 .Card-Finalizar .Horizontal-card .border-warning-finalizar img {
   padding: 0.3rem;
@@ -69,37 +58,53 @@
   text-align: center;
   margin: auto;
 }
-@media (max-width: 780px) {
-  .Card-Finalizar .Card-CuentaTotal {
-    outline: 5px solid grey;
-    margin-left: -2.5rem;
-  }
-}
-@media (max-width: 1500px) {
+@media (max-width: 1300px) {
   .Card-Finalizar {
-    display: contents;
-    flex-direction: row;
-  }
-}
-@media (max-width: 780px) {
-  .Card-Finalizar {
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
   }
   .Card-Finalizar .Horizontal-card {
-    outline: 5px solid pink;
+    margin: auto;
+    width: 45vw;
+    height: 30vh;
   }
   .Card-Finalizar .Horizontal-card .border-warning-finalizar {
-    width: 90vw;
-    margin-left: -8rem;
+    width: 55vw;
+    height: 25vh !important;
+    margin-top: 2rem;
+    height: 19vh;
+    display: flex;
+    flex-direction: row;
+    border-color: rgba(224, 224, 26, 0.623);
+  }
+}
+@media (max-width: 520px) {
+  .Card-Finalizar {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .Card-Finalizar .Horizontal-card {
+    margin-left: -4.5rem;
+    width: 85vw;
+    height: 25vh;
   }
   .Card-Finalizar .Horizontal-card .card-text {
-    outline: 3px solid brown;
-    width: 32vw;
-    height: 20px;
-    font-size: 11px;
+    width: 28vw;
+    font-size: 12px;
+  }
+  .Card-Finalizar .Horizontal-card .border-warning-finalizar {
+    width: 93vw;
+    height: 25vh !important;
+    margin-top: 2rem;
+    height: 19vh;
+    display: flex;
+    flex-direction: row;
   }
   .Card-Finalizar .Horizontal-card .btn-danger {
-    outline: 3px solid yellowgreen;
-    padding: 0.5rem;
+    margin-right: 7rem;
+  }
+  .Card-Finalizar .Card-CuentaTotal {
+    margin-left: -2rem;
   }
 }/*# sourceMappingURL=cart.css.map */
