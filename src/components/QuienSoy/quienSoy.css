@@ -28,7 +28,6 @@
 }
 @media (max-width: 800px) {
   .Quien-soy {
-    outline: 5px solid red;
     display: flex;
     flex-direction: column;
     height: 130vh;
@@ -48,7 +47,6 @@
 }
 @media (max-width: 500px) {
   .Quien-soy {
-    outline: 5px solid red;
     display: flex;
     flex-direction: column;
     height: 130vh;
