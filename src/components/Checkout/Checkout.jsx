@@ -33,7 +33,8 @@ const Checkout = () => {
 
        createOrdenCompra(valores, totalPrice(), new Date().toDateString()).then(orden=>{
         console.log("Hola")
-        toast.colored(`Gracias ${orden.id} por comprar`)
+        toast.colored(`Gracias ${orden.id} por comprar`) 
+       /*  toast.colored('Gracias ') */
         emptyCard()
         e.target.reset()
         navigate ("/")
